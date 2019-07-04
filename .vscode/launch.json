@@ -7,6 +7,12 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "sockMerchant",
+            "program": "${workspaceFolder}/hackerRank/sockMerchant"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "closestToZero",
             "program": "${workspaceFolder}/algorithms/closestTozero"
         },
