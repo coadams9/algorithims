@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "closestToZero",
+            "program": "${workspaceFolder}/algorithms/closestTozero"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "compression",
+            "program": "${workspaceFolder}/algorithms/compression"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "%20",
+            "program": "${workspaceFolder}/algorithms/%20Implement"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Permutation",
+            "program": "${workspaceFolder}/algorithms/checkPermutation.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "string reversal",
+            "program": "${workspaceFolder}/algorithms/stringReversal.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "unique",
+            "program": "${workspaceFolder}/algorithms/isUnique.js"
+        }
+    ]
+}
