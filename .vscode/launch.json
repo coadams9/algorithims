@@ -7,6 +7,12 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "getCloser",
+            "program": "${workspaceFolder}/hackerRank/getCloser"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "sockMerchant",
             "program": "${workspaceFolder}/hackerRank/sockMerchant"
         },
