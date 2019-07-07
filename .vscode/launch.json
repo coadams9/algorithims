@@ -7,6 +7,12 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "countingValleys",
+            "program": "${workspaceFolder}/hackerRank/countingValleys"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "getCloser",
             "program": "${workspaceFolder}/hackerRank/getCloser"
         },
