@@ -26,8 +26,8 @@ Organized complex functionality to integrate project with API to work together s
 
 <h2>EMPLOYMENT HISTORY</h2>
 
-<appr>SOUTH CITY KITCHEN								Atlanta, GA
-Bartender/Server								Aug 2015 - Dec 2018</appr>
+<appr>**SOUTH CITY KITCHEN								Atlanta, GA
+Bartender/Server								Aug 2015 - Dec 2018**</appr>
 <p>Increased restaurant total sales through gradual increase of knowledge and products.
 Maintained a positive and friendly attitude in high volume popular restaurant with an average of 150 reservations nightly.
 Collaborated with small teams to manage dining sections and achieve daily goals.
