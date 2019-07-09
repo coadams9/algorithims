@@ -5,7 +5,7 @@
 
 <h2>TECHNICAL PROJECTS<h2>
 
-<appr>**CBay** – [backend](https://github.com/coadams9/car_seller_backend) | [frontend](https://github.com/coadams9/frontend_new)]</appr>
+<appr>**CBay** – [backend](https://github.com/coadams9/car_seller_backend) | [frontend](https://github.com/coadams9/frontend_new)</appr>
 <p>Ebay for cars. A way to find, sell, and buy cars from other people online.
 Created a Rails Api from seeded data.
 Developed an authorization page with full login functionality.
