@@ -7,6 +7,12 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "clouds",
+            "program": "${workspaceFolder}/hackerRank/jumpingOnClouds"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "countingValleys",
             "program": "${workspaceFolder}/hackerRank/countingValleys"
         },
