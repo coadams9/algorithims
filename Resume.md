@@ -47,3 +47,4 @@ Flatiron School - 2019 								Atlanta, GA
 Valdosta State University - 2006 – 2009					Valdosta, GA
 Coursework completed towards a Bachelor of Arts degree in Communications
 
+<!-- //commit -->
