@@ -33,8 +33,8 @@ Maintained a positive and friendly attitude in high volume popular restaurant wi
 Collaborated with small teams to manage dining sections and achieve daily goals.
 Utilized extensive knowledge of wines and food top upsell customers and increase sales.</p>
 
-<appr>LOEWS HOTEL								Atlanta, GA
-Bartender/Server/Server Assistant						May 2011 - Jan -2015</appr>
+<appr>**LOEWS HOTEL								Atlanta, GA
+Bartender/Server/Server Assistant						May 2011 - Jan -2015**</appr>
 <p>Opened a new restaurant in a busy district of downtown Atlanta.
 Thrived in constantly changing atmosphere of newly established business.
 Outstanding performance recognized with multiple promotions during tenure.</p>
