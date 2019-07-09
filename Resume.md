@@ -6,6 +6,7 @@
 <h2>TECHNICAL PROJECTS<h2>
 
 <appr>**CBay** – [backend](https://github.com/coadams9/car_seller_backend) | [frontend](https://github.com/coadams9/frontend_new)</appr>
+
 <p>Ebay for cars. A way to find, sell, and buy cars from other people online.
 Created a Rails Api from seeded data.
 Developed an authorization page with full login functionality.
@@ -13,6 +14,7 @@ Implemented Semantic-ui as well as custom CSS for styling.
 Utilized React-Router to implement custom routes.</p>
 
 <appr>**Pack Your Bags** – [backend](https://github.com/coadams9/mod5-travelapp-backened) | [frontend](https://github.com/coadams9/mod5-travelapp-frontend) </appr>
+
 <p>A fully functional travel app that allows a you choose a location, book flights and hotels.
 Devised a system of function calls to make GET requests to a third-party API for all data.
 Integrated methods to reformat and save data to a Rails backend.
@@ -24,18 +26,18 @@ Organized complex functionality to integrate project with API to work together s
 
 <h2>EMPLOYMENT HISTORY</h2>
 
-SOUTH CITY KITCHEN								Atlanta, GA
-Bartender/Server								Aug 2015 - Dec 2018
-Increased restaurant total sales through gradual increase of knowledge and products.
+<appr>SOUTH CITY KITCHEN								Atlanta, GA
+Bartender/Server								Aug 2015 - Dec 2018</appr>
+<p>Increased restaurant total sales through gradual increase of knowledge and products.
 Maintained a positive and friendly attitude in high volume popular restaurant with an average of 150 reservations nightly.
 Collaborated with small teams to manage dining sections and achieve daily goals.
-Utilized extensive knowledge of wines and food top upsell customers and increase sales.
+Utilized extensive knowledge of wines and food top upsell customers and increase sales.</p>
 
-LOEWS HOTEL								Atlanta, GA
-Bartender/Server/Server Assistant						May 2011 - Jan -2015
-Opened a new restaurant in a busy district of downtown Atlanta.
+<appr>LOEWS HOTEL								Atlanta, GA
+Bartender/Server/Server Assistant						May 2011 - Jan -2015</appr>
+<p>Opened a new restaurant in a busy district of downtown Atlanta.
 Thrived in constantly changing atmosphere of newly established business.
-Outstanding performance recognized with multiple promotions during tenure.
+Outstanding performance recognized with multiple promotions during tenure.</p>
 
 **EDUCATION**
 
