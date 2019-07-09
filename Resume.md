@@ -1,12 +1,11 @@
-<h2>__Cory Adams__</h2>
+<h2>Cory Adams</h2>
 <addr>404-924-0202| coadams9@gmail.com| github | blog | LinkedIn</addr>
-
-
+<br />
 <p>Full stack web developer with a passion for writing code and creative problem solving.  With experience in Ruby on Rails, JavaScript, and React, I’ve grown to love the challenge and satisfaction of writing complex yet readable code. My curiosity and passion for technology drove my decision to make a career pivot to software engineering. I bring strong skills in customer service and interpersonal communication, and am team oriented.</p> 
 
-<h2>__TECHNICAL PROJECTS__<h2>
+<h2>TECHNICAL PROJECTS<h2>
 
-<appr>**CBay** – [backend](https://github.com/coadams9/car_seller_backend) | [frontend(https://github.com/coadams9/frontend_new)]</appr>
+<appr>**CBay** – [backend](https://github.com/coadams9/car_seller_backend) | [frontend](https://github.com/coadams9/frontend_new)]</appr>
 <p>Ebay for cars. A way to find, sell, and buy cars from other people online.
 Created a Rails Api from seeded data.
 Developed an authorization page with full login functionality.
@@ -19,7 +18,7 @@ Devised a system of function calls to make GET requests to a third-party API for
 Integrated methods to reformat and save data to a Rails backend.
 Organized complex functionality to integrate project with API to work together seamlessly.</p>
 
-<h2>__TECHNICAL SKILLS__</h2>
+<h2>TECHNICAL SKILLS</h2>
 
 <appr>Ruby, Rails, SQL, JavaScript, React, Redux, HTML/ CSS, PostgreSQL</appr>
 
