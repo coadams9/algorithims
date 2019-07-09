@@ -1,5 +1,5 @@
 <h2>Cory Adams</h2>
-<addr>404-924-0202| [coadams9@gmail.com](mailto:coadams9@gmail.com)| [github](https://github.com/coadams9) | [blog](https://medium.com/@coadams9) | [LinkedIn](https://www.linkedin.com/in/adamsrcory/)</addr>
+<addr><h6>404-924-0202| [coadams9@gmail.com](mailto:coadams9@gmail.com)| [github](https://github.com/coadams9) | [blog](https://medium.com/@coadams9) | [LinkedIn](https://www.linkedin.com/in/adamsrcory/)</h6></addr>
 
 <p>Full stack web developer with a passion for writing code and creative problem solving.  With experience in Ruby on Rails, JavaScript, and React, I’ve grown to love the challenge and satisfaction of writing complex yet readable code. My curiosity and passion for technology drove my decision to make a career pivot to software engineering. I bring strong skills in customer service and interpersonal communication, and am team oriented.</p> 
 
