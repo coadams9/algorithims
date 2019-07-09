@@ -23,7 +23,7 @@ Organized complex functionality to integrate project with API to work together s
 
 <appr>Ruby, Rails, SQL, JavaScript, React, Redux, HTML/ CSS, PostgreSQL</appr>
 
-<h2>__EMPLOYMENT HISTORY__</h2>
+<h2>EMPLOYMENT HISTORY</h2>
 
 SOUTH CITY KITCHEN								Atlanta, GA
 Bartender/Server								Aug 2015 - Dec 2018
