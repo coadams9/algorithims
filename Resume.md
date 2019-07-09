@@ -3,7 +3,7 @@
 
 <p>Full stack web developer with a passion for writing code and creative problem solving.  With experience in Ruby on Rails, JavaScript, and React, I’ve grown to love the challenge and satisfaction of writing complex yet readable code. My curiosity and passion for technology drove my decision to make a career pivot to software engineering. I bring strong skills in customer service and interpersonal communication, and am team oriented.</p> 
 
-<h2>TECHNICAL PROJECTS<h2>
+<h2>TECHNICAL PROJECTS</h2>
 
 <appr>**CBay** – [backend](https://github.com/coadams9/car_seller_backend) | [frontend](https://github.com/coadams9/frontend_new)</appr>
 
