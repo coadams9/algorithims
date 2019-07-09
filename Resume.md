@@ -37,7 +37,7 @@ Opened a new restaurant in a busy district of downtown Atlanta.
 Thrived in constantly changing atmosphere of newly established business.
 Outstanding performance recognized with multiple promotions during tenure.
 
-EDUCATION
+**EDUCATION**
 
 Flatiron School - 2019 								Atlanta, GA
  Full Stack In-Person Web Development, Ruby on Rails and JavaScript program
