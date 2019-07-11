@@ -7,6 +7,12 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "repeatedString",
+            "program": "${workspaceFolder}/hackerRank/repeatedString"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "clouds",
             "program": "${workspaceFolder}/hackerRank/jumpingOnClouds"
         },
