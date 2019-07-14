@@ -28,3 +28,7 @@ isUnique(str)
 // 1. I thought that if i started at i = 3 that the indexes at 0, 1, 2 were not being checked so I tried to fix it but found it didn't need fixing. The above code works just fine. 
 
 // 2. I learned that when going through characters the first loop pauses on the first element before doing comparisons on every other element
+
+
+
+//testststststsfdfasfdasffdfafdfafdkklj

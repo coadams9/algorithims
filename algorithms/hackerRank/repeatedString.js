@@ -1,5 +1,5 @@
 s = 'abc'
-n = 10
+n = 100
 
 const repeatedString = (s, n) => {
     let nS = ''
