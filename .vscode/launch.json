@@ -7,6 +7,18 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "loops",
+            "program": "${workspaceFolder}/algorithms/loops"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "FizzBuzz",
+            "program": "${workspaceFolder}/algorithms/FizzBuzz"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "repeatedString",
             "program": "${workspaceFolder}/hackerRank/repeatedString"
         },
