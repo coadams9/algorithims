@@ -38,50 +38,55 @@
 //     }
 // }
 
-var word = 'cat'
+var word = 'catter'
 
-function lastLetters(word) {
-    var newString = ''
-    let length = word.length
-    let lastLett = word[length - 1]
-    let secLLett = word[length - 2]
-    newString = lastLett + " " + secLLett
+// function lastLetters(word) {
+//     var newString = ''
+//     let length = word.length
+//     let lastLett = word[length - 1]
+//     let secLLett = word[length - 2]
+//     newString = lastLett + " " + secLLett
+//     console.log(newString)
+// }
+
+function lastLetters(str) {
+    let newString = str.split('').reduce((acc, char) => char + '/' + acc, '')
     console.log(newString)
 }
 
-// lastLetters(word)
+lastLetters(word)
 
 
-input = [
-    'hello there billy',
-    'see spot run',
-    'jake goes hunting',
-    'billy likes pizza',
-    'run spot walk',
-    'hunting is boring',
-    'pizza with cheese'
-]
+// input = [
+//     'hello there billy',
+//     'see spot run',
+//     'jake goes hunting',
+//     'billy likes pizza',
+//     'run spot walk',
+//     'hunting is boring',
+//     'pizza with cheese'
+// ]
 
-function generate_phrases(phrases) {
-    let newArr = []
-    let newPhrase = ''
-    for (i = 0; i < phrases.length; i++) {
-        testPhrase = phrases[i].split(' ')
-        testWord = testPhrase[testPhrase.length - 1]
-        for (j = 0; j < phrases.length; j++) {
-            testPhrase2 = phrases[j].split(' ')
-            testWord2 = testPhrase2[0]
-            if (testWord === testWord2) {
-                testPhrase.pop()
-                testPhrase.push(' ')
-                newPhrase = testPhrase + testPhrase2
-                newPhrase = newPhrase.split(',').join(' ')
-                newArr.push(newPhrase)
-            }
-        }
-    }
-    console.log(newArr)
-    return newArr
-}
+// function generate_phrases(phrases) {
+//     let newArr = []
+//     let newPhrase = ''
+//     for (i = 0; i < phrases.length; i++) {
+//         testPhrase = phrases[i].split(' ')
+//         testWord = testPhrase[testPhrase.length - 1]
+//         for (j = 0; j < phrases.length; j++) {
+//             testPhrase2 = phrases[j].split(' ')
+//             testWord2 = testPhrase2[0]
+//             if (testWord === testWord2) {
+//                 testPhrase.pop()
+//                 testPhrase.push(' ')
+//                 newPhrase = testPhrase + testPhrase2
+//                 newPhrase = newPhrase.split(',').join(' ')
+//                 newArr.push(newPhrase)
+//             }
+//         }
+//     }
+//     console.log(newArr)
+//     return newArr
+// }
 
-generate_phrases(input)
+// generate_phrases(input)
