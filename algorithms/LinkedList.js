@@ -91,6 +91,47 @@ class LinkedList {
         lastNode.next = l
 
     }
+
+
+    getAt(index) {
+        let counter = 0;
+        let node = this.head;
+        // If nothing is set exit
+        if (!node) {
+            return null;
+        }
+        // If index is out of range
+        if (this.size() < index) {
+            return null;
+        }
+        // Else 
+        while (node) {
+            node = node.next;
+            if (counter === index) {
+                return node;
+            }
+            counter++;
+        }
+    }
+
+    removeAt(index) {
+        if (!this.head) {
+            return;
+        }
+
+        if (index === 0) {
+            this.head = this.head.next
+            return;
+        }
+
+
+        if (index > this.size() - 1) {
+            return;
+        }
+        const prev = this.getAt(index - 1);
+        prev.next = prev.next.next;
+    }
+
 }
 
 module.exports = { Node, LinkedList };
