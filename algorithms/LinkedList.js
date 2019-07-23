@@ -1,117 +1,104 @@
-// --- Directions
-// Implement classes Node and Linked Lists
-// See 'directions' document
-
 class Node {
     constructor(data, next = null) {
-        this.data = data
-        this.next = next
+        this.data = data;
+        this.next = next;
     }
 }
 
 class LinkedList {
     constructor() {
-        this.head = null
+        this.head = null;
     }
 
     insertFirst(data) {
-        this.head = new Node(data, this.head)
+        this.head = new Node(data, this.head);
     }
 
     size() {
-        let count = 0
-        let node = this.head
+        let counter = 0;
+        let node = this.head;
 
         while (node) {
-            count++
-            node = node.next
+            counter++;
+            node = node.next;
         }
 
-        return count
+        return counter;
     }
 
     getFirst() {
-        return this.head
+        return this.head;
     }
 
     getLast() {
         if (!this.head) {
-            return null
+            return null;
         }
 
-        let node = this.head
+        let node = this.head;
         while (node) {
             if (!node.next) {
-                return node
+                return node;
             }
-            node = node.next
+            node = node.next;
         }
     }
 
     clear() {
-        this.head = null
+        this.head = null;
     }
 
     removeFirst() {
         if (!this.head) {
-            return
+            return;
         }
 
-        this.head = this.head.next
+        this.head = this.head.next;
     }
 
     removeLast() {
         if (!this.head) {
-            return
+            return;
         }
 
         if (!this.head.next) {
-            this.head = null
-            return
+            this.head = null;
+            return;
         }
 
-        let previous = this.head
-        let node = this.head.next
+        let previous = this.head;
+        let node = this.head.next;
         while (node.next) {
-            previous = node
-            node = node.next
+            previous = node;
+            node = node.next;
         }
-        previous.next = null
-
+        previous.next = null;
     }
 
     insertLast(data) {
-        if (!this.head) {
-            return
+        const last = this.getLast();
+
+        if (last) {
+            // There are some existing nodes in our chain
+            last.next = new Node(data);
+        } else {
+            // The chain is empty!
+            this.head = new Node(data);
         }
-
-        let lastNode = this.getLast()
-        const l = new Node(data)
-
-        lastNode.next = l
-
     }
-
 
     getAt(index) {
         let counter = 0;
         let node = this.head;
-        // If nothing is set exit
-        if (!node) {
-            return null;
-        }
-        // If index is out of range
-        if (this.size() < index) {
-            return null;
-        }
-        // Else 
         while (node) {
-            node = node.next;
             if (counter === index) {
                 return node;
             }
+
             counter++;
+            node = node.next;
         }
+        return null;
     }
 
     removeAt(index) {
@@ -120,18 +107,32 @@ class LinkedList {
         }
 
         if (index === 0) {
-            this.head = this.head.next
+            this.head = this.head.next;
             return;
         }
 
-
-        if (index > this.size() - 1) {
+        const previous = this.getAt(index - 1);
+        if (!previous || !previous.next) {
             return;
         }
-        const prev = this.getAt(index - 1);
-        prev.next = prev.next.next;
+        previous.next = previous.next.next;
     }
 
+    insertAt(data, index) {
+        if (!this.head) {
+            this.head = new Node(data);
+            return;
+        }
+
+        if (index === 0) {
+            this.head = new Node(data, this.head);
+            return;
+        }
+
+        const previous = this.getAt(index - 1) || this.getLast()
+        const node = new Node(data, previous.next)
+        previous.next = node
+    }
 }
 
 module.exports = { Node, LinkedList };
