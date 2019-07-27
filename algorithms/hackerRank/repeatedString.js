@@ -1,24 +1,25 @@
 s = 'abc'
-n = 100
+n = 15
 
 const repeatedString = (s, n) => {
-    let nS = ''
+
     let i = 0
-    while (nS.length < n) {
+    let arr = []
+
+    while (arr.length < n) {
+        arr.push(s[i])
+        i++
         if (s[i] === undefined) {
             i = 0
-        } else {
-            nS += s[i]
-            i++
         }
     }
-    let count = 0
-    for (let i = 0; i < nS.length; i++) {
-        if (nS[i] === 'a') {
-            count++
-        }
-    }
-    console.log(count)
+
+    const a = arr.filter(char => {
+        return char === 'a'
+    })
+
+    return a.length
+
 }
 
 repeatedString(s, n)
