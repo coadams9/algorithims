@@ -7,6 +7,24 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "investment",
+            "program": "${workspaceFolder}/algorithms/investment"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "minimumMoves",
+            "program": "${workspaceFolder}/algorithms/minimumMoves"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "twitter",
+            "program": "${workspaceFolder}/algorithms/twitter"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "loops",
             "program": "${workspaceFolder}/algorithms/loops"
         },
