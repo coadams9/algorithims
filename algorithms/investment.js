@@ -1,32 +1,37 @@
-const investment = (s, e, n = s.length, n1 = e.length, times = []) => {
-    schedule = []
+const schedule = []
+
+const investment = (s, e) => {
+    const times = []
+    const n = s.length
 
     for (let i = 0; i < n; i++) {
-        for (let j = 0; j < n1; j++) {
-            times.push([s[i], e[j]])
-            i++
-        }
+        times.push(s[i], e[i])
     }
 
-    let arrI = 0
+    let i = 0
+    const tLength = times.length
 
-    while (arrI < times.length) {
-        const currTimes = times[arrI]
-        let startDay = currTimes[0]; let endDay = currTimes[1]
+    while (i < tLength) {
+        let startDay = times[i]; let endDay = times[i + 1]
 
         while (startDay <= endDay) {
 
-            if (inSchedule(startDay)) {
-                startDay++
-            } else {
+            if (!inSchedule(startDay)) {
                 schedule.push(startDay)
+                i++
                 break
+            } else if (!inSchedule(endDay)) {
+                schedule.push(endDay)
+                i++
+                break
+            } else {
+                startDay++
+                endDay--
             }
         }
 
-        arrI++
+        i++
     }
-
     return schedule.length
 }
 
@@ -38,11 +43,19 @@ const inSchedule = day => {
     }
 }
 
+investment([1, 1, 2, 1], [2, 2, 4, 1])
+
+
+
+// hits(counts)
+
+
+
+// ------------------------------------------------------------------------------
 
 
 
 
-investment([32, 32, 32], [35, 1100, 1100])
 
 // const allTimes = []
 
@@ -84,3 +97,44 @@ investment([32, 32, 32], [35, 1100, 1100])
 //     let count = 0
 //     schedule.forEach(num => count++)
 //     return count
+
+
+// let counts = [
+//     "900,google.com",
+//     "60,mail.yahoo.com",
+//     "10,mobile.sports.yahoo.com",
+//     "40,sports.yahoo.com",
+//     "300,yahoo.com",
+//     "10,stackoverflow.com",
+//     "20,overflow.com",
+//     "2,en.wikipedia.org",
+//     "1,m.wikipedia.org",
+//     "1,mobile.sports",
+//     "1,google.co.uk"
+// ]
+
+// const hits = arr => {
+//     const counts = {}
+//     const n = arr.length
+
+//     for (let i = 0; i < n; i++) {
+//         const newArr = arr[i].split(',')
+//         const currentHits = parseInt(newArr[0])
+//         const domain = newArr[1];
+
+
+//         let domainParts = domain.split('.');
+//         console.log(domainParts)
+
+//         while (domainParts.length > 0) {
+//             const currentDomain = domainParts.join('.');
+//             if (!(currentDomain in counts)) {
+//                 counts[currentDomain] = 0;
+//             }
+//             counts[currentDomain] += currentHits;
+//             domainParts.shift();
+//         }
+//     }
+
+//     return counts;
+// }

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<script>
+    const schedule = []
+
+    const investment = (s, e) => {
+        const times = []
+        const n = s.length
+        let count = 0
+
+        for (let i = 0; i < n; i++) {
+            let availableDays = { startDay: s[i], endDay: e[i] }
+            times.push(availableDays)
+        }
+
+        let i = 0
+        const tLength = times.length
+
+        while (i < tLength) {
+            let startDay = times[i][startDay]; let endDay = times[i][endDay]
+
+            if (!inSchedule(startDay)) {
+                schedule.push(startDay)
+                count++
+                i++
+            } else if (!inSchedule(endDay)) {
+                schedule.push(endDay)
+                count++
+                i++
+            } else {
+                while (!inSchedule(startDay) && !inSchedule(endDay)) {
+                    startDay++
+                    endDay--
+                }
+            }
+        }
+    }
+    return count
+
+
+    const inSchedule = day => {
+        if (schedule.includes(day)) {
+            return true
+        } else {
+            return false
+        }
+    }
+
+    investment([1, 1, 2, 1], [2, 2, 4, 1])
+
+
+
+</script>
+
+<body>
+    <h1>Hi</h1>
+</body>
+
+</html>
