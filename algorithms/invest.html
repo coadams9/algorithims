@@ -39,6 +39,9 @@
                     startDay++
                     endDay--
                 }
+                if (!inSchedule(startDay)) {
+                    schedule.push(startDay)
+                }
             }
         }
     }
