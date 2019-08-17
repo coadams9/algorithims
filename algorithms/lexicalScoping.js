@@ -25,33 +25,49 @@
 
 // -----------------------------------------------------
 
-// var x = 1
-// {
-//     x = 2
-//     {
-//         x = 3
-//         {
-//             console.log(x)
+
+{
+
+    {
+
+        {
+            let x = 3
+        }
+    }
+}
+
+console.log(x)
+
+// function test() {
+//     test1()
+//     function test1() {
+//         test2()
+//         function test2() {
+//             test3()
+//             function test3() {
+//                 var x = 3
+//             }
 //         }
 //     }
 // }
+// console.log(x)
 
 
 // ------------------------------------------------------
-const num = 6
+// const num = 6
 
 
-function one() {
-    console.log('inside one and num is ', num)
-}
+// function one() {
+//     console.log('inside one and num is ', num)
+// }
 
-function two() {
-    const num = 3
+// function two() {
+//     const num = 3
 
-    one()
-}
+//     one()
+// }
 
-two()
+// two()
 // -----------------------------------------------------
 
 // const variable = 'global'
@@ -61,7 +77,7 @@ two()
 //         console.log('inside function two and var is', variable)
 //     }
 
-//     const variable = 'function ones scope changed me'
+//     // const variable = 'function ones scope changed me'
 
 //     two()
 // }
