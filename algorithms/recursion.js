@@ -42,7 +42,7 @@ function getNumsArray(nums) {
 }
 
 
-addNumbers(1000000)
+addNumbers([1, 5, 8, 5])
 
 // const addNumbers = nums => {
 //     let highestNum = null
